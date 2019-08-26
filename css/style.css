@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
 
-img {
-    width: 100%;
-}
 
-h5 {
+
+h1, h5 {
+    text-align: center;
     padding-top: 10px;
 }
 /*------------------------------Header-------------------------*/
@@ -19,6 +18,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    width: 100%;
     /*box-sizing: border-box;*/
     border-radius: 35px;
     /*border: 5px solid #FF5733;*/
@@ -29,7 +29,7 @@ header {
     -o-transition: all .5s ease-in-out;
 }
 
-.heading {
+.heading-name {
     text-align: center;
     border-radius: 35px;
     /*border: 5px solid #FF5733;*/
@@ -121,7 +121,7 @@ header {
     letter-spacing: 2px;
 }
 
-/*------------------------------Main Section-------------------------*/
+/*------------------------------index.html Main Section-------------------------*/
 
 section {
     border-radius: 35px;
@@ -131,7 +131,7 @@ section {
     padding: 20px;
 }
 
-.tag-line {
+.heading {
     text-align: center;
     border-radius: 35px;
     /*border: 5px solid #FF5733;*/
@@ -153,6 +153,12 @@ section {
     background-size: cover;
 }
 
+/*------------------------------about.html Main Section-------------------------*/
+
+.bio-image image {
+    height: 100px;
+    
+}
 
 /*------------------------------Footer-------------------------*/
 footer {

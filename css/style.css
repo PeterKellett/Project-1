@@ -123,11 +123,12 @@ header {
 
 /*------------------------------Main Section-------------------------*/
 
-.sectioncontainer {
+section {
     border-radius: 35px;
     border-width: 5px;
     border: 5px solid #FF5733;
     margin: 10px 10px;
+    padding: 20px;
 }
 
 .tag-line {
@@ -145,7 +146,7 @@ header {
 }
 
 .imagecontainer {
-
+    max-height: 300px;
     margin: 5px;
     background-position: center;
     background-repeat: no-repeat;

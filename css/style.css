@@ -8,6 +8,10 @@ h5 {
     padding-top: 10px;
 }
 
+p {
+    text-align: center;
+    padding: 10px;
+}
 /*------------------------------Header-------------------------*/
 
 header {
@@ -209,9 +213,13 @@ tr {
 }
 
 /*------------------------------Videos.html Main Section-------------------------*/
-.videos {
+.video-container {
     display: flex;
-    justify-content: center;
+}
+.videos {
+    width: 100%;
+    height: auto;
+    text-align: center;
     padding: 10px 0px;
 }
 
@@ -227,7 +235,13 @@ tr {
     -o-transition: all .5s ease-in-out;
 }
 
+form {
+    text-align: center;
+}
 
+input {
+    margin: 10px;
+}
 /*------------------------------Footer-------------------------*/
 
 footer {

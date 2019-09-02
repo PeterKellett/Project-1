@@ -8,10 +8,7 @@ h5 {
     padding-top: 10px;
 }
 
-p {
-    text-align: center;
-    padding: 10px;
-}
+
 /*------------------------------Header-------------------------*/
 
 header {
@@ -55,7 +52,7 @@ header {
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #C0392B;
 }
 
 .ui-menu-color-about {
@@ -166,6 +163,15 @@ section {
 
 }
 
+.thumbnail {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    width: 70px;
+    border-radius: 20px;
+    
+}
+
 /*------------------------------Tour.html Main Section-------------------------*/
 
 th,
@@ -213,9 +219,11 @@ tr {
 }
 
 /*------------------------------Videos.html Main Section-------------------------*/
+
 .video-container {
     display: flex;
 }
+
 .videos {
     width: 100%;
     height: auto;
@@ -235,13 +243,19 @@ tr {
     -o-transition: all .5s ease-in-out;
 }
 
+/*------------------------------Shop.html Main Section-------------------------*/
+
 form {
     text-align: center;
 }
 
 input {
     margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
 }
+
 /*------------------------------Footer-------------------------*/
 
 footer {

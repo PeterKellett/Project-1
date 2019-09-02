@@ -11,10 +11,13 @@ h5 {
 p {
     font-family: rubik;
 }
+
 /*------------------------------Header-------------------------*/
 
-header {
-    margin-top: 35px;
+@media (min-width: 992px) {
+    header {
+        margin-top: 35px;
+    }
 }
 
 .logo {
@@ -43,6 +46,17 @@ header {
     padding: 50px;
 }
 
+@media (max-width: 768px) {
+    .heading-name {
+        text-align: center;
+        border-radius: 35px;
+        /*border: 5px solid #FF5733;*/
+        background-color: #FF5733;
+        margin: 10px;
+        padding: 20px;
+    }
+}
+
 .nav-menu {
     border-radius: 35px;
     background-color: #FF5733;
@@ -57,6 +71,7 @@ header {
     background-color: #E74C3C;
     transition-duration: 0.5s;
 }
+
 .ui-menu-color-home:hover {
     Background-color: #C0392B;
 }
@@ -65,6 +80,7 @@ header {
     background-color: #9B59B6;
     transition-duration: 0.5s;
 }
+
 .ui-menu-color-about:hover {
     background-color: #8E44AD;
 }
@@ -73,6 +89,7 @@ header {
     background-color: #3498DB;
     transition-duration: 0.5s;
 }
+
 .ui-menu-color-videos:hover {
     background-color: #2980B9;
 }
@@ -81,6 +98,7 @@ header {
     background-color: #1ABC9C;
     transition-duration: 0.5s;
 }
+
 .ui-menu-color-worldtour:hover {
     background-color: #27AE60;
 }
@@ -89,6 +107,7 @@ header {
     background-color: #E67E22;
     transition-duration: 0.5s;
 }
+
 .ui-menu-color-shop:hover {
     background-color: #D35400;
 }
@@ -165,6 +184,14 @@ section {
     padding: 30px;
 }
 
+@media (max-width: 768px) {
+    .heading {
+        padding: 10px;
+    }
+}
+
+
+
 .gallery {
     justify-content: space-between;
     margin: 5px;
@@ -191,7 +218,7 @@ section {
     margin-right: 30px;
     width: 70px;
     border-radius: 20px;
-    
+
 }
 
 /*------------------------------Tour.html Main Section-------------------------*/
@@ -278,6 +305,9 @@ input {
     border-color: grey;
 }
 
+.footnote {
+    text-align: center;
+}
 /*------------------------------Footer-------------------------*/
 
 footer {

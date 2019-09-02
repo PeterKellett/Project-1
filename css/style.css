@@ -8,7 +8,9 @@ h5 {
     padding-top: 10px;
 }
 
-
+p {
+    font-family: rubik;
+}
 /*------------------------------Header-------------------------*/
 
 header {
@@ -52,23 +54,43 @@ header {
 }
 
 .ui-menu-color-home {
-    background-color: #C0392B;
+    background-color: #E74C3C;
+    transition-duration: 0.5s;
+}
+.ui-menu-color-home:hover {
+    Background-color: #C0392B;
 }
 
 .ui-menu-color-about {
-    background-color: #9b59b6;
+    background-color: #9B59B6;
+    transition-duration: 0.5s;
+}
+.ui-menu-color-about:hover {
+    background-color: #8E44AD;
 }
 
 .ui-menu-color-videos {
-    background-color: #3498db;
+    background-color: #3498DB;
+    transition-duration: 0.5s;
+}
+.ui-menu-color-videos:hover {
+    background-color: #2980B9;
 }
 
 .ui-menu-color-worldtour {
-    background-color: #525252;
+    background-color: #1ABC9C;
+    transition-duration: 0.5s;
+}
+.ui-menu-color-worldtour:hover {
+    background-color: #27AE60;
 }
 
 .ui-menu-color-shop {
-    background-color: #34eb37;
+    background-color: #E67E22;
+    transition-duration: 0.5s;
+}
+.ui-menu-color-shop:hover {
+    background-color: #D35400;
 }
 
 /*.list-inline-item:not(:last-child) {

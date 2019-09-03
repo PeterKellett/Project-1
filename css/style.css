@@ -4,6 +4,8 @@
 
 h1,
 h5 {
+    font-family: Roboto;
+    font-weight: 700;
     text-align: center;
     padding-top: 10px;
 }
@@ -51,7 +53,7 @@ p {
         text-align: center;
         border-radius: 35px;
         /*border: 5px solid #FF5733;*/
-        background-color: #FF5733;
+        /*background-color: #FF5733;*/
         margin: 10px;
         padding: 20px;
     }
@@ -59,12 +61,16 @@ p {
 
 .nav-menu {
     border-radius: 35px;
-    background-color: #FF5733;
+    /*background-color: #FF5733;*/
     /*border: 5px solid #FF5733;*/
     justify-content: space-between;
     font-size: 0;
     margin: 10px 0px;
     padding: 20px;
+}
+
+.home-color {
+    background-color: #E74C3C;
 }
 
 .ui-menu-color-home {
@@ -76,6 +82,9 @@ p {
     Background-color: #C0392B;
 }
 
+.about-color {
+    background-color: #9B59B6;
+}
 .ui-menu-color-about {
     background-color: #9B59B6;
     transition-duration: 0.5s;
@@ -85,6 +94,9 @@ p {
     background-color: #8E44AD;
 }
 
+.videos-color {
+    background-color: #3498DB;
+}
 .ui-menu-color-videos {
     background-color: #3498DB;
     transition-duration: 0.5s;
@@ -94,21 +106,27 @@ p {
     background-color: #2980B9;
 }
 
-.ui-menu-color-worldtour {
+.tour-color {
+    background-color: #1ABC9C;
+}
+.ui-menu-color-tour {
     background-color: #1ABC9C;
     transition-duration: 0.5s;
 }
 
-.ui-menu-color-worldtour:hover {
+.ui-menu-color-tour:hover {
     background-color: #27AE60;
 }
 
-.ui-menu-color-shop {
+.fanzine-color {
+    background-color: #E67E22;
+}
+.ui-menu-color-fanzine {
     background-color: #E67E22;
     transition-duration: 0.5s;
 }
 
-.ui-menu-color-shop:hover {
+.ui-menu-color-fanzine:hover {
     background-color: #D35400;
 }
 
@@ -167,19 +185,19 @@ p {
 
 /*------------------------------index.html Main Section-------------------------*/
 
-section {
+.home-images {
     border-radius: 35px;
     border-width: 5px;
-    border: 5px solid #FF5733;
+    border: 5px solid #E74C3C;
     margin: 10px 10px;
-    padding: 20px;
+    padding: 10px 0px;
 }
 
 .heading {
     text-align: center;
     border-radius: 35px;
     /*border: 5px solid #FF5733;*/
-    background-color: #FF5733;
+    /*background-color: #FF5733;*/
     margin: 10px 0px;
     padding: 30px;
 }
@@ -206,7 +224,13 @@ section {
 }
 
 /*------------------------------about.html Main Section-------------------------*/
-
+.about-us {
+    border-radius: 35px;
+    border-width: 5px;
+    border: 5px solid #9B59B6;
+    margin: 10px 10px;
+    padding: 20px;
+}
 .bio-image image {
     height: 100px;
 
@@ -222,55 +246,36 @@ section {
 }
 
 /*------------------------------Tour.html Main Section-------------------------*/
+.tour-details {
+    border-radius: 35px;
+    border-width: 5px;
+    border: 5px solid #1ABC9C;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
 
-th,
+.tour-data {
+    padding: 0px;
+}
+th {
+    text-align: center;
+    font-size: 20px;
+}
 tr {
     text-align: center;
     /*border: 1px solid black;*/
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
 
 /*------------------------------Videos.html Main Section-------------------------*/
 
 .video-container {
-    display: flex;
+    border-radius: 35px;
+    border-width: 5px;
+    border: 5px solid #3498DB;
+    margin: 10px 10px;
+    padding: 20px;
+    
 }
 
 .videos {
@@ -292,7 +297,14 @@ tr {
     -o-transition: all .5s ease-in-out;
 }
 
-/*------------------------------Shop.html Main Section-------------------------*/
+/*------------------------------Fanzine.html Main Section-------------------------*/
+.form-container {
+    border-radius: 35px;
+    border-width: 5px;
+    border: 5px solid #E67E22;
+    margin: 10px 10px;
+    padding: 20px;
+}
 
 form {
     text-align: center;
@@ -308,6 +320,7 @@ input {
 .footnote {
     text-align: center;
 }
+
 /*------------------------------Footer-------------------------*/
 
 footer {

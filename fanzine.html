@@ -15,11 +15,11 @@
 
     <!--Hover/Effects cdnjs.com link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    
+
     <!--css link-->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-    <title>Fan Club</title>
+    <title>Fanzine</title>
 </head>
 <!----------------------------------End head------------------------------>
 
@@ -33,12 +33,12 @@
                 <a href="index.html" class="col-lg-4 logo d-none d-md-block"></a>
 
                 <div class="col-lg-8">
-                    <div class="row bg-color-name-title">
-                        <div class="col heading-name">
+                    <div class="row">
+                        <div class="col heading-name fanzine-color">
                             <h1 class="name">Rock 'n' Roll ain't Noise Pollution</h1>
                         </div>
                     </div>
-                    <div class="row nav-menu">
+                    <div class="row nav-menu fanzine-color">
                         <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,11 +56,11 @@
                                     <li class="col-11 col-lg-2 ui-menu-color-videos list-inline-item menuitem">
                                         <a href="videos.html" class="hvr-shadow-radial"><i class="fas fa-film" aria-hidden="true"></i><span>Videos</span></a>
                                     </li>
-                                    <li class="col-11 col-lg-2 ui-menu-color-worldtour list-inline-item menuitem">
+                                    <li class="col-11 col-lg-2 ui-menu-color-tour list-inline-item menuitem">
                                         <a href="tour.html" class="hvr-shadow-radial"><i class="fas fa-globe-americas" aria-hidden="true"></i><span>Tour</span></a>
                                     </li>
-                                    <li class="col-11 col-lg-2 ui-menu-color-shop list-inline-item menuitem">
-                                        <a href="shop.html" class="hvr-shadow-radial"><i class="fas fa-shopping-basket" aria-hidden="true"></i><span>Shop</span></a>
+                                    <li class="col-11 col-lg-2 ui-menu-color-fanzine list-inline-item menuitem">
+                                        <a href="fanzine.html" class="hvr-shadow-radial"><i class="fas fa-user-friends" aria-hidden="true"></i><span>Fanzine</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -75,7 +75,7 @@
 
     <!----------------------------------Start Tag line section------------------------------>
     <div class="container">
-        <div class="row heading">
+        <div class="row heading fanzine-color">
             <h1 class="col">Fan Club</h1>
         </div>
     </div>
@@ -83,27 +83,31 @@
 
     <!----------------------------------Start Main section------------------------------>
     <section class="container">
-        <h5>Sign up here to keep up to date with all our news and hear about any of the fantastic offers we have exlusive to our fan club members!</h5>
-        <form action="/action_page.php">
-            <div class="form-row justify-content-around">
-                <div class="col-12 col-md-3">
-                    <input type="text" id="firstname" name="firstname" placeholder=" First name" required>
-                </div>
-                <div class="col-12 col-md-3">
-                    <input type="text" id="surname" name="surname" placeholder=" Surname" required>
-                </div>
-                <div class="col-12 col-md-3">
-                    <input type="email" id="email" name="email" placeholder=" Email" required>
-                </div>
+        <div class="row">
+            <div class="col-12 form-container">
+                <h5>Sign up here to keep up to date with all our news and hear about any of the fantastic offers we have exlusive to our fan club members!</h5>
+                <form action="/action_page.php">
+                    <div class="form-row justify-content-around">
+                        <div class="col-12 col-md-3">
+                            <input type="text" id="firstname" name="firstname" placeholder=" First name" required>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="text" id="surname" name="surname" placeholder=" Surname" required>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="email" id="email" name="email" placeholder=" Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                        </div>
+
+                    </div>
+                </form>
+                <p class="small footnote"><em>*Terms and conditions apply</em></p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <input class="btn btn-primary" type="submit" value="Submit">
-                </div>
-                
-            </div>
-        </form>
-        <p class="small footnote"><em>*Terms and conditions apply</em></p>
+        </div>
     </section>
     <!----------------------------------End Main section------------------------------>
 

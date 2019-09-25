@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,104 +20,712 @@
     <!--css link-->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-    <title>Home</title>
+    <title>Fanzine</title>
 </head>
 <!----------------------------------End head------------------------------>
 
 <!----------------------------------Start body------------------------------>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-highlight" data-offset="500">
     <!----------------------------------Start header------------------------------>
     <header>
-        <div class="container">
-            <div class="row">
-                <a href="index.html" class="col-lg-4 logo d-none d-md-block"></a>
+        <nav id="navbar-highlight" class="navbar fixed-top navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#"><img src="images/thin-lizzy-logo-red-black.jpeg" width="100" height="45" class="d-inline-block align-top" alt="Thin Lizzy logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#discography-bookmark">Discography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biography-bookmark">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos-bookmark">Videos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!----------------------------------Hero image------------------------------>
 
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col heading-name home-color">
-                            <h1 class="name">Rock 'n' Roll ain't Noise Pollution</h1>
+
+
+    <div class="container-fluid" id="home">
+        <div class="row no-gutters">
+            <div class="col-12 hero-image">
+                <img src="images/thin-lizzy-hero-image.jpg" class="img-fluid"></img>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------Intro--------------------------------------->
+    <div class="container">
+        <img src="images/thin-lizzy-landscape-logo.jpg" class="landscape-logo"></img>
+    </div>
+    <div class="container intro">
+        <div class="row">
+            <div class="col-12">
+
+                <p>Thin Lizzy are a hard rock band formed in Dublin, Ireland, in 1969. Two of the founding members, drummer Brian Downey and bass guitarist and lead vocalist Phil Lynott, met while still in school. Lynott led the group throughout their recording
+                    career of twelve studio albums, writing most of the material. The singles "Whiskey in the Jar" (a traditional Irish ballad), "The Boys Are Back in Town" and "Waiting for an Alibi" were international hits. After Lynott's death in 1986,
+                    various incarnations of the band emerged over the years based initially around guitarists Scott Gorham and John Sykes, though Sykes left the band in 2009. Gorham later continued with a new line-up including Downey.</p>
+                <p>The most iconic lineup featured Phil Lynott on bass, Brian Downey on drums and two guitarists Scott Gorham and Brian Robertson. This was the lineup that produced their most iconic albums, including ‘Live and Dangerous’, one of the best
+                    live albums of all time.</p>
+                <p>Another inspirational guitarist by the name of Gary Moore also played with Thin Lizzy. Having met and played alongside frontman Phil Lynott in their formative years with the band Skid Row in the late 60's, Moore replaced original guitarist
+                    Eric Bell on their 1974 world tour. Moore then left to pursue a solo career and later returned to play on the album Black Rose and also collaborated with Lynott for the 1985 hit Out in the Fields.</p>
+                <p><img src="images/james-hetfield-phil-lynnot.jpg"></img>Thin Lizzy and Phil Lynott paved the way for Irish Rock ‘N’ Roll music in the 70’s having a true Rock ‘N’ Roll sound, while still drawing from influences of Irish culture such as traditional
+                    Irish music, and Lynott’s lyrics, which commonly drew on his working-class experiences in inner-city Dublin. The band are linked and associated with the city of Dublin, with Phil Lynott himself immortalised in a bronze statue outside
+                    of the famous Dublin rock pub Bruxelles. Although Phillo left us in 1986 his music and legacy lives on and a stirring tribute by Metallica at this years concert at Slane Castle is testament to his legendary rock status.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------discography--------------------------------------->
+    <section class="container-fluid discography" id="discography-bookmark">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="heading">Albums</h1>
+            </div>
+        </div>
+        <!----------------------------Row 1---------------->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Thin_Lizzy.jpg" class="card-img-top" alt="Thin Lizzy album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Thin_Lizzy.jpg" title="Fair use of copyrighted material in the context of Thin Lizzy (album)" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066111" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title py-auto">Thin Lizzy</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thinlizzysonglist">Song List</button>
+                        <div class="modal fade text-left" id="thinlizzysonglist" tabindex="-1" role="dialog" aria-labelledby="thinlizzysonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="thinlizzysonglist">Thin Lizzy (1971)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>The Friendly Ranger at Clontarf Castle</li>
+                                            <li>Honesty Is No Excuse</li>
+                                            <li>Diddy Levine</li>
+                                            <li>Ray-Gun</li>
+                                            <li>Look What the Wind Blew In</li>
+                                            <li>Eire</li>
+                                            <li>Return of the Farmer's Son</li>
+                                            <li>Clifton Grange Hotel</li>
+                                            <li>Saga of the Ageing Orphan</li>
+                                            <li>Remembering</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row nav-menu home-color">
-                        <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span> Menu
-                        </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul id="nav" class="list-inline container-fluid">
-                                    <li class="col-11 col-lg-2 ui-menu-color-home list-inline-item menuitem">
-                                        <a href="index.html" class="hvr-shadow-radial"><i class="fas fa-home" aria-hidde="true"></i><span>Home</span></a>
-                                    </li>
-                                    <li class="col-11 col-lg-2 ui-menu-color-about list-inline-item menuitem">
-                                        <a href="about.html" class="hvr-shadow-radial"><i class="fas fa-info-circle" aria-hidden="true"></i><span>About Us</span></a>
-                                    </li>
-                                    <li class="col-11 col-lg-2 ui-menu-color-videos list-inline-item menuitem">
-                                        <a href="videos.html" class="hvr-shadow-radial"><i class="fas fa-film" aria-hidden="true"></i><span>Videos</span></a>
-                                    </li>
-                                    <li class="col-11 col-lg-2 ui-menu-color-tour list-inline-item menuitem">
-                                        <a href="tour.html" class="hvr-shadow-radial"><i class="fas fa-globe-americas" aria-hidden="true"></i><span>Tour</span></a>
-                                    </li>
-                                    <li class="col-11 col-lg-2 ui-menu-color-fanzine list-inline-item menuitem">
-                                        <a href="fanzine.html" class="hvr-shadow-radial"><i class="fas fa-user-friends" aria-hidden="true"></i><span>Fanzine</span></a>
-                                    </li>
-                                </ul>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Shades_of_a_Blue_Orphanage.jpg" class="card-img-top" alt="Shades of a Blue Orphanage album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Shades_of_a_Blue_Orphanage.jpg" title="Fair use of copyrighted material in the context of Shades of a Blue Orphanage" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066198" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Shades of a Blue Orphanage</h6>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#shadesofablueorphanagesonglist">Song List</button>
+                        <div class="modal fade text-left" id="shadesofablueorphanagesonglist" tabindex="-1" role="dialog" aria-labelledby="shadesofablueorphanagesonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="shadesofablueorphanagesonglist">Shades of a Blue Orphanage (1972)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>The Rise and Dear Demise of the Funky Nomadic Tribes</li>
+                                            <li>Buffalo Gal</li>
+                                            <li>I Don't Want to Forget How to Jive</li>
+                                            <li>Sarah</li>
+                                            <li>Brought Down</li>
+                                            <li>Baby Face</li>
+                                            <li>Chatting Today</li>
+                                            <li>Call the Police</li>
+                                            <li>Shades of a Blue Orphanage</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
                             </div>
-                        </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Vagabonds_of_the_Western_World.jpg" class="card-img-top" alt="Vagabonds of the Western World album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Vagabonds_of_the_Western_World.jpg" title="Fair use of copyrighted material in the context of Vagabonds of the Western World" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=12433589" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Vagabonds of the Western World</h6>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vagabondsofthewesternworldsonglist">Song List</button>
+                        <div class="modal fade text-left" id="vagabondsofthewesternworldsonglist" tabindex="-1" role="dialog" aria-labelledby="vagabondsofthewesternworldsonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="vagabondsofthewesternworldsonglist">Vagabonds of the Western World (1973)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Mama Nature Said</li>
+                                            <li>The Hero and the Madman</li>
+                                            <li>Slow Blues</li>
+                                            <li>The Rocker</li>
+                                            <li>Vagabond of the Western World</li>
+                                            <li>Little Girl in Bloom</li>
+                                            <li>Gonna Creep Up on You</li>
+                                            <li>A Song for While I'm Away</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Night_Life.jpg" class="card-img-top" alt="Nightlife album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Night_Life.jpg" title="Fair use of copyrighted material in the context of Nightlife (Thin Lizzy album)" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066281" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nightlife</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#nightlifesonglist">Song List</button>
+                        <div class="modal fade text-left" id="nightlifesonglist" tabindex="-1" role="dialog" aria-labelledby="nightlifesonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="nightlifesonglist">Nightlife (1974)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>She Knows</li>
+                                            <li>Night Life</li>
+                                            <li>It's Only Money</li>
+                                            <li>Still in Love with You</li>
+                                            <li>Frankie Carroll</li>
+                                            <li>Showdown</li>
+                                            <li>Banshee</li>
+                                            <li>Philomena</li>
+                                            <li>Sha La La</li>
+                                            <li>Dear Heart</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/ThinLizzyFighting.jpg" class="card-img-top" alt="Fighting album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:ThinLizzyFighting.jpg" title="Fair use of copyrighted material in the context of Fighting (Thin Lizzy album)" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=23489104" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fighting</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fightingsonglist">Song List</button>
+                        <div class="modal fade text-left" id="fightingsonglist" tabindex="-1" role="dialog" aria-labelledby="fightingsonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="fightingsonglist">Fighting (1975)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Rosalie</li>
+                                            <li>For Those Who Love to Live</li>
+                                            <li>Suicide</li>
+                                            <li>Wild One</li>
+                                            <li>Fighting My Way Back</li>
+                                            <li>King's Vengeance</li>
+                                            <li>Spirit Slips Away</li>
+                                            <li>Silver Dollar</li>
+                                            <li>Freedom Song</li>
+                                            <li>Ballad of a Hard Man</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Jailbreak.jpg" class="card-img-top" alt="Jailbreak album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Jailbreak.jpg" title="This image is of a cover of an audio recording, and the copyright for it is most likely owned by either the publisher of the work or the artist(s) which produced the recording or cover artwork in question."
+                                class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066653" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Jailbreak</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#jailbreaksonglist">Song List</button>
+                        <div class="modal fade text-left" id="jailbreaksonglist" tabindex="-1" role="dialog" aria-labelledby="jailbreaksonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="jailbreaksonglist">Jailbreak (1976)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Jailbreak</li>
+                                            <li>Angel from the Coast</li>
+                                            <li>Running Back</li>
+                                            <li>Romeo and the Lonely Girl</li>
+                                            <li>Warriors</li>
+                                            <li>The Boys Are Back in Town</li>
+                                            <li>Fight or Fall</li>
+                                            <li>Cowboy Song</li>
+                                            <li>Emerald</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Johnny_the_Fox.jpg" class="card-img-top" alt="Johnny the Fox album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Johnny_the_Fox.jpg" title="Fair use of copyrighted material in the context of Johnny the Fox" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066656" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Johnny the Fox</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#johnnythefoxsonglist">Song List</button>
+                        <div class="modal fade text-left" id="johnnythefoxsonglist" tabindex="-1" role="dialog" aria-labelledby="johnnythefoxsonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="johnnythefoxsonglist">Johnny the Fox (1976)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Johnny</li>
+                                            <li>Rocky</li>
+                                            <li>Borderline</li>
+                                            <li>Don't Believe a Word</li>
+                                            <li>Fools Gold</li>
+                                            <li>Johnny the Fox Meets Jimmy the Weed</li>
+                                            <li>Old Flame</li>
+                                            <li>Massacre</li>
+                                            <li>Sweet Marie</li>
+                                            <li>Boogie Woogie Dance"</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Bad_Reputation.jpg" class="card-img-top" alt="Bad Reputation album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Bad_Reputation.jpg" title="Fair use of copyrighted material in the context of Bad Reputation (Thin Lizzy album)" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066657" class="small d-inline text-muted">Link</a>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="card-title align-middle">Bad Reputation</h6>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#badreputationsonglist">Song List</button>
+                        <div class="modal fade text-left" id="badreputationsonglist" tabindex="-1" role="dialog" aria-labelledby="badreputationsonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="badreputationsonglist">Bad Reputation (1977)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Soldier of Fortune</li>
+                                            <li>Bad Reputation</li>
+                                            <li>Opium Trail</li>
+                                            <li>Southbound</li>
+                                            <li>Dancing in the Moonlight (It's Caught Me in Its Spotlight)</li>
+                                            <li>Killer Without a Cause</li>
+                                            <li>Downtown Sundown</li>
+                                            <li>That Woman's Gonna Break Your Heart</li>
+                                            <li>Dear Lord</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Live_and_Dangerous.jpg" class="card-img-top" alt="Live & Dangerous album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Live_and_Dangerous.jpg" title="Fair use of copyrighted material in the context of Live and Dangerous" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="//en.wikipedia.org/w/index.php?curid=1066660" class="small d-inline text-muted">Link</a>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="card-title align-middle">Live & Dangerous</h6>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#liveanddangeroussonglist">Song List</button>
+                        <div class="modal fade text-left" id="liveanddangeroussonglist" tabindex="-1" role="dialog" aria-labelledby="liveanddangeroussonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="liveanddangeroussonglist">Live & Dangerous (1978)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Jailbreak</li>
+                                            <li>Emerald</li>
+                                            <li>Southbound</li>
+                                            <li>Rosalie / Cowgirl's Song</li>
+                                            <li>Dancing in the Moonlight (It's Caught Me in Its Spotlight)</li>
+                                            <li>Massacre</li>
+                                            <li>Still in Love with You</li>
+                                            <li>Johnny the Fox Meets Jimmy the Weed</li>
+                                            <li>Cowboy Song</li>
+                                            <li>The Boys Are Back in Town</li>
+                                            <li>Don't Believe a Word</li>
+                                            <li>Warriors</li>
+                                            <li>Are You Ready</li>
+                                            <li>Suicide</li>
+                                            <li>Sha La La</li>
+                                            <li>Baby Drives Me Crazy</li>
+                                            <li>The Rocker</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Black_Rose_A_Rock_Legend.jpg" class="card-img-top" alt="Black Rose: A Rock Legend album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Black_Rose_A_Rock_Legend.jpg" title="Fair use of copyrighted material in the context of Black Rose: A Rock Legend" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066665" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Black Rose: A Rock Legend</h6>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blackrosesonglist">Song List</button>
+                        <div class="modal fade text-left" id="blackrosesonglist" tabindex="-1" role="dialog" aria-labelledby="blackrosesonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="blackrosesonglist">Black Rose: A Rock Legend (1979)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Do Anything You Want To</li>
+                                            <li>Toughest Street in Town</li>
+                                            <li>S & M</li>
+                                            <li>Waiting for an Alibi</li>
+                                            <li>Sarah</li>
+                                            <li>Got to Give It Up</li>
+                                            <li>Get Out of Here</li>
+                                            <li>With Love</li>
+                                            <li>Róisín Dubh (Black Rose): A Rock Legend</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Chinatown.jpg" class="card-img-top" alt="Chinatown album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Chinatown.jpg" title="Fair use of copyrighted material in the context of Chinatown (Thin Lizzy album)" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066668" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Chinatown</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chinatownsonglist">Song List</button>
+                        <div class="modal fade text-left" id="chinatownsonglist" tabindex="-1" role="dialog" aria-labelledby="chinatownsonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="chinatownsonglist">Chinatown (1980)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>We Will Be Strong</li>
+                                            <li>Chinatown</li>
+                                            <li>Sweetheart</li>
+                                            <li>Sugar Blues</li>
+                                            <li>Killer on the Loose</li>
+                                            <li>Having a Good Time</li>
+                                            <li>Genocide (The Killing of the Buffalo)</li>
+                                            <li>Didn't I</li>
+                                            <li>Hey You</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck col-6 col-md-4 col-xl-3">
+                    <div class="card text-center">
+                        <img src="images/Thin_Lizzy_-_Thunder_and_Lightning.jpg" class="card-img-top" alt="Thunder and Lightning album sleeve">
+                        <div class="text-left">
+                            <a href="//en.wikipedia.org/wiki/File:Thin_Lizzy_-_Thunder_and_Lightning.jpg" title="Fair use of copyrighted material in the context of Thunder and Lightning (album)" class="small d-inline text-muted">Fair use</a>
+                            <p class="small d-inline text-muted">, </p><a href="https://en.wikipedia.org/w/index.php?curid=1066687" class="small d-inline text-muted">Link</a>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Thunder and Lightning</h6>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thunderandlightningsonglist">Song List</button>
+                        <div class="modal fade text-left" id="thunderandlightningsonglist" tabindex="-1" role="dialog" aria-labelledby="thunderandlightningsonglist" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="thunderandlightningsonglist">Thunder and Lightning (1983)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ol>
+                                            <li>Angel of Death</li>
+                                            <li>Don't Believe a Word</li>
+                                            <li>Emerald</li>
+                                            <li>Killer on the Loose</li>
+                                            <li>The Boys Are Back in Town</li>
+                                            <li>Hollywood (Down on Your Luck)</li>
+                                            <li>The Sun Goes Down</li>
+                                            <li>Bad Habits</li>
+                                            <li>This Is the One</li>
+                                            <li>Thunder and Lightning</li>
+                                            <li>Cold Sweat</li>
+                                            <li>Baby Please Don't Go</li>
+                                            <li>Heart Attack</li>
+                                            <li>The Holy War</li>
+                                            <li>Someday She Is Going to Hit Back</li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!----------------------------------End header------------------------------>
+    </section>
 
-    <!----------------------------------Start Tag line section------------------------------>
-    <div class="container">
-        <div class="row heading d-none d-lg-block home-color">
-            <h1 class="col">Rocking All Over The World</h1>
-        </div>
-    </div>
-    <!----------------------------------End Tag line section------------------------------>
-
-    <!----------------------------------Start Main section------------------------------>
-    <section class="container">
-        <div class="row home-images">
+    <!----------------------------------Start Biography section------------------------------>
+    <section class="container-fluid biography" id="biography-bookmark">
+        <div class="row justify-content-center">
             <div class="col-12">
-                <!----------------------------Code from Bootstrap---------------------------------------------->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://image.shutterstock.com/image-photo/guitarist-on-stage-background-soft-600w-635037602.jpg" class="d-block w-100" alt="Image 1">
+                <h1 class="heading">Band Biography</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="images/phil-lynott-profile.jpg" class="card-img img-thumbnail" alt="Phil Lynott profile photo">
                         </div>
-                        <div class="carousel-item">
-                            <img src="https://image.shutterstock.com/image-photo/multiracial-music-band-performing-on-600w-313670855.jpg" class="d-block w-100" alt="Image 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://image.shutterstock.com/image-photo/music-instruments-drumsguitar-on-stage-600w-64463962.jpg" class="d-block w-100" alt="Image 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://image.shutterstock.com/image-photo/music-band-performing-on-stage-600w-304647095.jpg" class="d-block w-100" alt="Image 4">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://image.shutterstock.com/image-photo/girl-on-shoulders-crowd-music-260nw-449937730.jpg" class="d-block w-100" alt="Image 5">
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Phil Lynott</h5>
+                                <p class="card-text"><small>20 August 1949 – 4 January 1986</small></p>
+                                <p class="card-text"><small><em>Lead vocals, Bass guitar</em></small></p>
+                                <p class="card-text">Philip Parris Lynott was an Irish musician and songwriter. His most commercially successful group was Thin Lizzy, of which he was a founding member, the principal songwriter, lead vocalist and bassist. He was known for
+                                    his distinctive plectrum-based style on the bass, and for his imaginative lyrical contributions including working class tales and numerous characters drawn from personal influences and Celtic culture.</p>
+                            </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
                 </div>
+
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="images/scott-gorham-profile-2.jpg" class="card-img img-thumbnail" alt="Scott Gorham profile photo">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Scott Gorham</h5>
+                                <p class="card-text"><small>March 17, 1951 - </small></p>
+                                <p class="card-text"><small><em>Lead guitar</em></small></p>
+                                <p class="card-text">Scott Gorham is an American guitarist and songwriter who was one of the "twin lead guitarists" for the Irish rock band, Thin Lizzy. Although not a founding member of Thin Lizzy, he served a continuous membership after passing
+                                    an audition in 1974, joining the band at a time when the band's future was in doubt after the departures of original guitarist Eric Bell and his brief replacement Gary Moore. Gorham remained with Thin Lizzy until the
+                                    band's breakup in 1984. He and guitarist Brian Robertson marked the beginning of the band's most critically successful period, and together developed Thin Lizzy's twin lead guitar style while contributing dual backing
+                                    vocals as well.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="images/Brian-robertson-profile.jpg" class="card-img img-thumbnail" alt="Brian Robertson profile photo">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Brian Robertson</h5>
+                                <p class="card-text"><small>12 February 1956 - </small></p>
+                                <p class="card-text"><small><em>Lead guitar</em></small></p>
+                                <p class="card-text">Aged 18, Robertson was taken on along with Scott Gorham on the other lead guitar. He was given the nickname "Robbo" by Phil Lynott to distinguish him from drummer Brian Downey. The two lead guitarists provided a critical
+                                    part of Thin Lizzy's signature sound, referred to by critics as their "twin guitar attack".</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="images/brian-downey-profile-3.jpg" class="card-img img-thumbnail" alt="Brian Downey profile photo">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">Brian Downey</h5>
+                                <p class="card-text"><small>20/02/1945 -</small></p>
+                                <p class="card-text"><small><em>Drums</em></small></p>
+                                <p class="card-text">Brian Downey is an Irish drummer. He was a founding member of the rock band Thin Lizzy and the only other constant in the band aside from leader Phil Lynott until their break-up in 1983. Downey also co-wrote several Thin
+                                    Lizzy songs. Allmusic critic Eduardo Rivadavia has argued that Downey is "certainly one of the most underrated [rock drummers] of his generation".</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------------------------Start Videos------------------------------>
+    <section class="container-fluid videos" id="videos-bookmark">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="heading">Videos</h1>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-lg-4">
+                <iframe src="https://www.youtube.com/embed/5_xqb416S7o" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cSo9CC2wKVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xsKpazeA5L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fcAgmoGeMB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PI6VJDZoz98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e8Q-LY_x8tM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -124,44 +733,49 @@
 
     <!----------------------------------Start Footer section------------------------------>
 
-    <footer class="container">
-        <div class="row">
+    <footer class="container-fluid">
+        <div class="row justify-content-center text-center">
             <div class="col-sm-4 footer-details">
-                <h5>Sponsors</h5>
+                <h4>Sponsors</h4>
                 <p>Zimbian</p>
                 <p>Gibson</p>
                 <p>Yamaha</p>
             </div>
             <div class="col-sm-4 footer-details">
-                <h5>Tickets</h5>
-                <p>Get tickets for our world tour <a href="#" target="_blank" class="cv-pdf"><em>here!</em>
-                    <i class="fas fa-ticket-alt" aria-hidden="true"></i>
-                    <span class="sr-only">Ticket portal</span>
-                </a></p>
+                <h4>Newsletter</h4>
+                <p>Sign up to receive our Fanmail.</p>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="email" name="email" required class="form-control" placeholder="Email" aria-label="Email address" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-success" type="button" id="button-addon2">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="col-sm-4 footer-details">
-                <h5>Social Media</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
+                <h4>Social Media</h4>
+                <ul class="list-inline">
+                    <li class="list-inline-item social-links">
                         <a target="_blank" href="#">
-                            <i Class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <i Class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item social-links">
                         <a target="_blank" href="#">
                             <i Class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
 
-                    <li class="list-inline-item">
+                    <li class="list-inline-item social-links">
                         <a target="_blank" href="#">
                             <i Class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item social-links">
                         <a target="_blank" href="#">
                             <i Class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
@@ -171,7 +785,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row footer-details">
+        <div class="row footer-details text-center">
             <div class="col-md-6">
                 <p><small>Version no: 0.0.0.1</small></p>
             </div>
@@ -180,6 +794,7 @@
             </div>
         </div>
     </footer>
+
 
     <!----------------------------------End Footer section------------------------------>
 

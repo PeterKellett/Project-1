@@ -1,340 +1,217 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik|Permanent+Marker&display=swap');
 
+body {
+    position: relative;
+    margin-top: 70px;
+    background-color: #000;
+}
 
+.heading {
+    font-family: "permanent Marker";
+    font-weight: 900;
+    color: red;
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    background-color: #00000085;
+    margin-top: 50px;
+}
 
 h1,
 h5 {
     font-family: Roboto;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 10px;
+
 }
 
 p {
     font-family: rubik;
+
 }
 
 /*------------------------------Header-------------------------*/
 
 @media (min-width: 992px) {
     header {
-        margin-top: 35px;
+        /*margin-top: 35px;*/
     }
 }
 
-.logo {
-    background: url("../images/actimage-resized.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    width: 100%;
-    /*box-sizing: border-box;*/
-    border-radius: 35px;
-    /*border: 5px solid #FF5733;*/
-    /*margin: 10px;*/
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+/*------------------------------Navbar-------------------------*/
+
+.navbar {
+    background-color: #000;
+
 }
 
-.heading-name {
-    text-align: center;
-    border-radius: 35px;
-    /*border: 5px solid #FF5733;*/
-    background-color: #FF5733;
-    margin: 10px;
-    padding: 50px;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #a90e0e;
 }
 
-@media (max-width: 768px) {
-    .heading-name {
-        text-align: center;
-        border-radius: 35px;
-        /*border: 5px solid #FF5733;*/
-        /*background-color: #FF5733;*/
-        margin: 10px;
-        padding: 20px;
-    }
-}
-
-.nav-menu {
-    border-radius: 35px;
-    /*background-color: #FF5733;*/
-    /*border: 5px solid #FF5733;*/
-    justify-content: space-between;
-    font-size: 0;
-    margin: 10px 0px;
-    padding: 20px;
-}
-
-.home-color {
-    background-color: #E74C3C;
-}
-
-.ui-menu-color-home {
-    background-color: #E74C3C;
-    transition-duration: 0.5s;
-}
-
-.ui-menu-color-home:hover {
-    Background-color: #C0392B;
-}
-
-.about-color {
-    background-color: #9B59B6;
-}
-.ui-menu-color-about {
-    background-color: #9B59B6;
-    transition-duration: 0.5s;
-}
-
-.ui-menu-color-about:hover {
-    background-color: #8E44AD;
-}
-
-.videos-color {
-    background-color: #3498DB;
-}
-.ui-menu-color-videos {
-    background-color: #3498DB;
-    transition-duration: 0.5s;
-}
-
-.ui-menu-color-videos:hover {
-    background-color: #2980B9;
-}
-
-.tour-color {
-    background-color: #1ABC9C;
-}
-.ui-menu-color-tour {
-    background-color: #1ABC9C;
-    transition-duration: 0.5s;
-}
-
-.ui-menu-color-tour:hover {
-    background-color: #27AE60;
-}
-
-.fanzine-color {
-    background-color: #E67E22;
-}
-.ui-menu-color-fanzine {
-    background-color: #E67E22;
-    transition-duration: 0.5s;
-}
-
-.ui-menu-color-fanzine:hover {
-    background-color: #D35400;
-}
-
-/*.list-inline-item:not(:last-child) {
-    margin: 0;
-}*/
-
-.menucontainer {
-    width: auto;
-    justify-content: space-between;
-    font-size: 0;
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
-.menuitem {
-    /*height: 130px;*/
-    text-align: center;
-    padding: 20px;
-    border-radius: 25px;
-    margin: 10px;
-}
-
-.menuitem a {
-    width: 100%;
+.nav-item a {
+    color: #e61f02;
     text-decoration: none;
-    color: #000;
-    /*height: 120px;*/
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #000;
-    font-size: 22px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
+    background-color: transparent;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
-/*------------------------------index.html Main Section-------------------------*/
-
-.home-images {
-    border-radius: 35px;
-    border-width: 5px;
-    border: 5px solid #E74C3C;
-    margin: 10px 10px;
-    padding: 10px 0px;
-}
-
-.heading {
-    text-align: center;
-    border-radius: 35px;
-    /*border: 5px solid #FF5733;*/
-    /*background-color: #FF5733;*/
-    margin: 10px 0px;
-    padding: 30px;
-}
-
-@media (max-width: 768px) {
-    .heading {
-        padding: 10px;
-    }
-}
 
 
 
-.gallery {
-    justify-content: space-between;
-    margin: 5px;
-}
+/*----------------------------------hero image-------------------------*/
 
-.imagecontainer {
-    max-height: 300px;
-    margin: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*------------------------------about.html Main Section-------------------------*/
-.about-us {
-    border-radius: 35px;
-    border-width: 5px;
-    border: 5px solid #9B59B6;
-    margin: 10px 10px;
-    padding: 20px;
-}
-.bio-image image {
-    height: 100px;
-
-}
-
-.thumbnail {
-    display: inline-block;
-    float: right;
-    margin-right: 30px;
-    width: 70px;
-    border-radius: 20px;
-
-}
-
-/*------------------------------Tour.html Main Section-------------------------*/
-.tour-details {
-    border-radius: 35px;
-    border-width: 5px;
-    border: 5px solid #1ABC9C;
-    margin: 10px 0px;
-    padding: 20px 0px;
-}
-
-.tour-data {
-    padding: 0px;
-}
-th {
-    text-align: center;
-    font-size: 20px;
-}
-tr {
-    text-align: center;
-    /*border: 1px solid black;*/
-}
-
-
-/*------------------------------Videos.html Main Section-------------------------*/
-
-.video-container {
-    border-radius: 35px;
-    border-width: 5px;
-    border: 5px solid #3498DB;
-    margin: 10px 10px;
-    padding: 20px;
+.hero-image {
     
-}
-
-.videos {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    text-align: center;
-    padding: 10px 0px;
+
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
 }
 
-.video-bg {
-    background: url("https://image.shutterstock.com/image-photo/film-reel-600w-176946104.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+/*----------------------------------Intro-------------------------*/
+
+.landscape-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.intro {
+    margin-bottom: 10px;
+}
+
+.intro img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid #a90e0e;
+}
+
+p {
+    color: #fff;
+    text-align: justify;
+}
+
+/*-----------------------------------------Discography--------------------------*/
+
+.discography {
+    background-color: #1d1c1b;
+}
+
+.discography .card {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #a90e0e;
+    color: #fafafa;
+}
+
+.discography .card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.discography .card-body {
+    padding: 0;
+}
+
+.discography .btn {
+    background-color: #9e0909f5;
+}
+
+.discography .modal-content {
+    background-color: #404039d1;
+    color: #f5e9e9;
+}
+
+.discography .modal-header span {
+    color: red;
+    background-color: #fff;
+}
+/*-----------------------------------------Biography--------------------------*/
+
+.biography {
+    background: url(../images/Thin_Lizzy_1978-Live_and_Dangerous_lineup.jpg);
     background-size: cover;
-    width: 100%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
 }
 
-/*------------------------------Fanzine.html Main Section-------------------------*/
-.form-container {
-    border-radius: 35px;
-    border-width: 5px;
-    border: 5px solid #E67E22;
-    margin: 10px 10px;
-    padding: 20px;
+/*.biography .heading {
+    background-color: #00000085;
+    margin-top: 10px;
+}*/
+
+.biography .card {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #00000085;
 }
 
-form {
-    text-align: center;
+.biography .card-img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
 
-input {
-    margin: 10px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: grey;
+.biography .card-body {
+    padding: 0px 20px;
 }
 
-.footnote {
-    text-align: center;
+.biography .card-title {
+    padding-top: 10px;
+    color: #f4f4f4;
+    font-weight: 700;
 }
 
-/*------------------------------Footer-------------------------*/
+.biography .card-text {
+    margin: 0;
+    color: #f4f4f4;
+}
+
+/*-----------------------------------------Videos--------------------------*/
+.videos {
+    background-image: url(../images/video-background.jpg);
+    background-size: cover;
+}
+
+.videos iframe {
+    margin-bottom: 20px;
+    border: 3px solid red;
+    width:100%;
+    height: 350px;
+}
+/*-----------------------------------------Footer--------------------------*/
 
 footer {
-    background-color: #525252;
+    background-color: #f90404a3;
     color: #fafafa;
-    min-height: 120px;
-    border-radius: 35px;
-    margin: 10px;
+    padding-top: 20px;
 }
 
-.footer-details {
+footer p {
     text-align: center;
 }
 
-.social-links i {
-    color: #ff5733;
+footer .form-control {
+    border-color: #8b8b8b;
+    margin: 0;
+}
+
+footer .btn {
+    background-color: #5564d2;
+    color: #fafafa;
+}
+
+footer a {
+    color: #9f0303;
+}
+
+footer .social-links {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
 }

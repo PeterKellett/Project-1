@@ -1,65 +1,82 @@
-Peter Kellett
-User Centric Frontend Development Milestone Project
+# Peter Kellett - User Centric Frontend Development Milestone Project
 
-PROJECT PURPOSE
-The purpose of this project is to construct a website in order to showcase the key information about a musical band. It requires a visitor to be able to view photos, videos, a brief bio on each band member. It is also needs to provide information on the bands upcoming live tour and also provide a form to sign up to an electronic fanzine editorial.
-It shall also demonstrate my ability to structure and compile the necessary HTML and CSS code to construct a website of between 3-5 pages which is responsive to various devices.
+## PROJECT PURPOSE
+The purpose of this project is to construct a website in order to provide a brief overview about a musical band. It includes short intro, the band discography, a brief bio on each band member, and a selection of videos. There is also provision for a user to sign up to an electronic fanzine editorial.
+It shall also demonstrate my ability to structure and compile the necessary HTML and CSS code to construct a website to showcase the above features and which is responsive to various devices.
+
+## Technologies
+- Bootstrap v4.3.1
+- FontAwesome v5.11.2
+- Google Fonts
+- AWS Cloud9
+- GitHub repository PeterKellett/Project-1
+- Demo link https://peterkellett.github.io/Project-1/
 
 
-UX
-This website shall contain 5 pages in total with a page dedicated to each of the sections mentioned above.
-It is required to be device responsive with unnecessary clutter removed on smaller devices. The main content of each page is kept as concise as possible with a different page incorporated for each of the main sections that the band want to highlight.
+## UX
+This website shall contain 2 pages.
+1. Home page
+    - Intro (Home)
+    - Discography
+    - Biography
+    - Videos
+2. Contact Us page
 
-        
-USER STORIES
-A user requires the need to be able to easily navigate between pages in any order without the need to return to a home page.
-A user needs to be able to view images of the band.
+
+## USER STORIES
+A user requires the need to be able to easily navigate between the respective sections in any order without the need to return to a home section.
+A user needs to be able to read an overview of the band.
+A user needs to be able to view information on the bands albums.
 A user needs to be able to view information on the band members.
 A user needs to be able to view videos of the band.
-A user needs to be able to view details of upcoming dates on a live tour.
 A user needs to be able to sign up to a fanzine electronic magazine.
-When viewed on mobile devices the main content must be viewable when a user lands on the page.
 
-WIREFRAMES
-
-
+## WIREFRAMES
+![home page wireframe](./images/wireframes/home-page1.1.jpg)
 
 
+## FEATURES
+### Navigation Menu
+The navigation menu is composed of pill style links directing users to the relevant section of the page selected.
 
+### Home Page/home
+index.html#home-bookmark
+The main section of the homepage contains a hero image and a brief overview description of the band Thin Lizzy.
 
-    •	Homepage 
-        o	Images shown in a carousel format scrolling at a rate of 1s
-    •	About Us
-        o	Short bio of each of the band members
-    •	Videos
-        o	A selection of 3 videos for the user to play and view
-    •	Live Tour
-        o	Details of upcoming live concerts displayed in a table format and tailored for easy viewing on small devices.
-    •	Fanzine
-        o	This incorporates a 3 field form for a user to sign up to receive a fanzine. It asks for First Name, Surname, Email, and a Submit button. Each field is a compulsory field with notification deployed to alert the user if they try to submit the form when any any of the fields are empty.
+### Home Page/Discography
+index.html#discography-bookmark
+The discography section contains a bootstrap card for each of the 12 albums the band has released. They are styled bootstrap cards consisting of an image, an album title, and a button which opens a model displaying the album song list.
 
+### Home Page/Biography
+index.html#biography-bookmark
+The biography section displays 4 no. band members on horizontal bootstrap cards.
+- ![background image](./images/Thin_Lizzy_1978-Live_and_Dangerous_lineup.jpg)
+- card background-color: #00000085;
 
-FEATURES
-Header
-The header is composed of an image/logo, the band name, and the navigation menu. The image/logo is removed from display on small devices in order to free up valuable screen real estate.
+### Home Page/Videos
+index.html#videos-bookmark
+6 no. videos are displayed.
+- ![background image](../images/video-background.jpg)
+- width: 100%;
+- height: 350px;
 
-Navigation Menu
-The navigation menu is composed of button style links directing users to the relevant page selected. The navigation menu is collapsed to a hamburger icon on devices less than 768px in width.
+### Contact Us page
+contact.html#contact-us-bookmark
+The contact us page consists of a form with 3 input fields and a submit button.
+- ![background image](../images/thin-lizzy-live-bw.jpg)
+- form background-color #00000085
+- Input fields have attribute [required]
 
-Home Page
-The home page hosts images of the band. It is presented in a carousel format with a scroll rate of 1 sec. A user can also use scroll arrows to navigate through the carousel. Image indicators have also been included in the carousel feature.
-
-About Us page
-The About Us page contains a short bio on each of the band members. It incorporates an image, member name, instruments played, place and year of birth, and a paragraph character snapshot.
-
-Videos page
-The videos are displayed individually and a user can operate each video using the imported video settings.
-
-Live Tour page
-The Live Tour page contains a table of data containg a row for each tour date. A user can view the date, the city, the stadium hosting the concert. A series of alerts is also included to provide an indication to the user whether tickets are available or if it is sold out.
-
-Fanzine page.
-The fanzine page incorporates a short form consisting of 3 fields
-
+### Footer
+The footer consits of 3 section.
+- Sponsors
+- Newsletter
+    - Email field
+    - Submit button
+- Social media links
+    - Facebook icon link
+    - Twitter icon link
+    - Instagram icon link
+    - Youtube icon link
 
 

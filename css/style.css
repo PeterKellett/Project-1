@@ -174,7 +174,7 @@ nav .social-links a {
 /*-----------------------------------------Biography--------------------------*/
 
 .biography {
-    background: url(../images/Thin_Lizzy_1978-Live_and_Dangerous_lineup.jpg);
+    background: url(https://res.cloudinary.com/dfboxofas/image/upload/v1570024274/thin-lizzy/Thin_Lizzy_1978-Live_and_Dangerous_lineup_qogkwv.jpg);
     background-size: cover;
 }
 
@@ -218,7 +218,7 @@ nav .social-links a {
 /*-----------------------------------------Videos--------------------------*/
 
 .videos {
-    background-image: url(../images/video-background.jpg);
+    background-image: url(https://res.cloudinary.com/dfboxofas/image/upload/v1570024582/thin-lizzy/video-background_dwvvig.jpg);
     background-size: cover;
 }
 
@@ -232,7 +232,7 @@ nav .social-links a {
 /*-----------------------------------------Contact us--------------------------*/
 
 .contact-us {
-    background-image: url(../images/thin-lizzy-live-bw.jpg);
+    background-image: url(https://res.cloudinary.com/dfboxofas/image/upload/v1570024553/thin-lizzy/thin-lizzy-live-bw_kt6nse.jpg);
     background-size: cover;
     color: #fafafa;
 }

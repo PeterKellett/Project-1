@@ -128,11 +128,11 @@ nav .social-links a {
     color: #fafafa;
 }
 
-/*@media (max-width: 400px) {
+@media (max-width: 400px) {
     .discography .card {
         height: 273px;
     }
-}*/
+}
 
 .discography .card-img {
     width: 100%;
@@ -153,6 +153,7 @@ nav .social-links a {
 
 .discography .btn {
     background-color: #9e0909f5;
+    color: #fafafa;
 }
 
 .discography .modal-content {

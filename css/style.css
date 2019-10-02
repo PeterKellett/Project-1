@@ -241,10 +241,6 @@ nav .social-links a {
     padding: 0;
 }
 
-.contact-us .heading {
-    margin-top: 10px;
-}
-
 .contact-us .form-static-text {
     padding: 15px 0px;
     background-color: #00000085;
@@ -278,21 +274,15 @@ nav .social-links a {
 
 .contact-us button {
     width: 100%;
+    background-color: #a90e0e;
+    color: #fafafa;
 }
 
-/*.contact-us button {
-    width: 100%;
-    margin-right: 15px;
-    position: absolute;
-    top: 40%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}*/
 
 /*-----------------------------------------Footer--------------------------*/
 
 footer {
-    background-color: #f90404a3;
+    background-color: #7d2c2ca3;
     color: #fafafa;
     padding-top: 20px;
 }

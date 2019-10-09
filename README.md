@@ -40,6 +40,7 @@ This website is hosted on GitHub
 Project name: PeterKellett/Project-1  
 Demo link: https://peterkellett.github.io/Project-1/
 
+# Website requirements
 ## USER STORIES (Requirements)
 A user requires the need to be able to easily navigate between the respective sections in any order without the need to return to a home section.
 A user needs to be able to read an overview of the band.
@@ -86,59 +87,118 @@ The navigation menu is composed of pill style links directing users to the relev
 - link color active: #fff
 - link background-color active: #a90e0e
 
-### Home Page/home
-index.html#home-bookmark
-The main section of the homepage contains a hero image and a brief overview description of the band Thin Lizzy.
-- ![Home section image](https://res.cloudinary.com/dfboxofas/image/upload/v1570014696/thin-lizzy/thin-lizzy-eyes-closed_1_mf8jvp.jpg)
-- ![Thin Lizzy header image](https://res.cloudinary.com/dfboxofas/image/upload/v1570021502/thin-lizzy/thin-lizzy-landscape-logo_u6fxfh.jpg)
-- Section text
-    - font-family: Rubik;
-    - color: #fff;
-    - text-align: left;
-- Paragraph image ![James Hetfield Metallica](https://res.cloudinary.com/dfboxofas/image/upload/v1570021620/thin-lizzy/james-hetfield-phil-lynnot_xtgjug.jpg)
-    - float: right
+### Home Page/home section
+index.html#home-bookmark  
+The main section of the homepage contains a hero image and a brief overview description of the band Thin Lizzy.  
+- Home image  
+![Home section image](https://res.cloudinary.com/dfboxofas/image/upload/v1570014696/thin-lizzy/thin-lizzy-eyes-closed_1_mf8jvp.jpg)
+- Header logo  
+![Thin Lizzy header image](https://res.cloudinary.com/dfboxofas/image/upload/v1570021502/thin-lizzy/thin-lizzy-landscape-logo_u6fxfh.jpg)
+#### Home Section text
+- font-family: Rubik;
+- color: #fff;
+- text-align: left;
+- Paragraph image  
+- float: right  
+![James Hetfield Metallica](https://res.cloudinary.com/dfboxofas/image/upload/v1570021620/thin-lizzy/james-hetfield-phil-lynnot_xtgjug.jpg)
 
 
-### Home Page/Discography
-index.html#discography-bookmark
+### Home Page/Discography section
+index.html#discography-bookmark  
 The discography section contains a bootstrap card for each of the 12 albums the band has released. They are styled bootstrap cards consisting of an image, an album title, and a button which opens a model displaying the album song list.
 
 #### Discography items
 - Thin Lizzy
 - Shades of a Blue Orphanage
-#### Album images
+- Vagabonds of the Western World
+- Nightlife
+- Fighting
+- Jailbreak
+- Johnny the Fox
+- Bad Reputation
+- Live & Dangerous
+- Black Rose: A Rock Legend
+- Chinatown
+- Thunder & Lightning
 
-### Home Page/Biography
-index.html#biography-bookmark
-The biography section displays 4 no. band members on horizontal bootstrap cards.
-- ![background image](./images/Thin_Lizzy_1978-Live_and_Dangerous_lineup.jpg)
-- card background-color: #00000085;
+#### Discography card styling
+- color: #fafafa
+- background-color: #a90e0e
+- font: Rubik
 
-### Home Page/Videos
-index.html#videos-bookmark
-6 no. videos are displayed.
-- ![background image](../images/video-background.jpg)
+### Home Page/Biography section
+index.html#biography-bookmark  
+The biography section displays 4 no. band members on horizontal bootstrap cards.  
+##### Background image
+![background image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024274/thin-lizzy/Thin_Lizzy_1978-Live_and_Dangerous_lineup_qogkwv.jpg)
+
+#### Biography cards
+- font: Rubik
+- color: #fafafa
+- background-color: #00000085
+
+##### Phil Lynott  
+- Phil Lynott profile image  
+![Phil Lynott profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570023901/thin-lizzy/phil-lynott-profile_ndhffn.jpg)
+
+##### Scott Gorham
+- Scott Gorham profile image  
+![Scott Gorham profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024018/thin-lizzy/scott-gorham-profile-2_cpyswj.jpg)  
+
+##### Brian Robertson
+- Brian Robertson profile image  
+![Brian Robertson profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024094/thin-lizzy/Brian-robertson-profile_mwajcf.jpg)  
+
+##### Brian Downey
+- Brian Downey profile image  
+![Brian Downey profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024070/thin-lizzy/brian-downey-profile-3_invlg0.jpg)  
+
+
+### Home Page/Videos section
+index.html#videos-bookmark  
+##### Background image
+![background image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024582/thin-lizzy/video-background_dwvvig.jpg)  
+The Videos dimensions are:
 - width: 100%;
-- height: 350px;
+- height: 350px;  
 
-### Contact Us page
-contact.html#contact-us-bookmark
+##### 6 no. videos are displayed.
+1. The Boys are Back in Town https://youtu.be/5_xqb416S7o
+2. Rosalie https://youtu.be/cSo9CC2wKVI
+3. Out in the Fields https://youtu.be/xsKpazeA5L8
+4. Parisienne Walkways https://youtu.be/fcAgmoGeMB4
+5. Jailbreak https://youtu.be/PI6VJDZoz98
+6. Whiskey in the Jar https://youtu.be/e8Q-LY_x8tM
+
+
+### Contact Us section
+contact.html#contact-us-bookmark  
 The contact us page consists of a form with 3 input fields and a submit button.
-- ![background image](../images/thin-lizzy-live-bw.jpg)
+
+##### Background image
+![background image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024553/thin-lizzy/thin-lizzy-live-bw_kt6nse.jpg)
+
+##### Contact Us form
 - form background-color #00000085
+- Fields
+    1. First name
+    2. Surname
+    3. Email
 - Input fields have attribute [required]
 
 ### Footer
 The footer consits of 3 section.
-- Sponsors
-- Newsletter
-    - Email field
-    - Submit button
-- Social media links
-    - Facebook icon link
-    - Twitter icon link
-    - Instagram icon link
-    - Youtube icon link
+##### Footer Sponsors
+1. Zimbian
+2. Gibson
+3. Yamaha
+
+##### Social media links
+Sourced from FontAwesome https://fontawesome.com/icons?d=gallery
+- Facebook icon link
+- Twitter icon link
+- Instagram icon link
+- Youtube icon link    
 
 
 # Testing

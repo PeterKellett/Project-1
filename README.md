@@ -43,21 +43,22 @@ Demo link: https://peterkellett.github.io/Project-1/
 # Website requirements
 ## USER STORIES (Requirements)
 A user requires the need to be able to easily navigate between the respective sections in any order without the need to return to a home section.
-A user needs to be able to read an overview of the band.
-A user needs to be able to view information on the bands albums.
-A user needs to be able to view information on the band members.
-A user needs to be able to view videos of the band.
-A user needs to be able to sign up to a fanzine electronic magazine.
+- A user needs to be able to read an overview of the band.
+- A user needs to be able to view information on the bands albums.
+- A user needs to be able to view information on the band members.
+- A user needs to be able to view videos of the band.
+- A user needs to be able to sign up to a fanzine electronic magazine.
 
 ## UX
-This website shall contain 1 consisting of 5 sections.
-1. Home page
-    - Navigation menu
-    - Intro (Home)section
-    - Discography section
-    - Biography section
-    - Videos section
-    - Contact Us section
+This website shall contain 1 page consisting of 6 sections.
+##### Home page
+Navigation menu - sticky top
+1. Intro (Home)section
+2. Discography section
+3. Biography section
+4. Videos section
+5. Contact Us section
+6. Footer
 
 ## WIREFRAMES
 ![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570030578/Project-1-readme/project-1-wireframe-1.1_wzxcoy.jpg)
@@ -65,20 +66,23 @@ This website shall contain 1 consisting of 5 sections.
 
 ## FEATURES
 ### Navigation bar
-The nav bar is positioned sticky top so it is always visible. it consists of:
-- Navbar brand image:![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570020458/thin-lizzy/thin-lizzy-logo-red-black_s6s5hm.jpg)
-- Social media icons
+The nav bar is positioned sticky top so it is always visible. it consists of:  
+##### Navbar brand image
+![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570020458/thin-lizzy/thin-lizzy-logo-red-black_s6s5hm.jpg)
+
+##### Social media icons
 Sourced from FontAwesome https://fontawesome.com/icons?d=gallery
-    - Facebook
-    - Twitter
-    - Instagram
-    - Youtube
-- Nav links
-    - Home
-    - Discography
-    - Biography
-    - Videos
-    - Contact Us
+- Facebook
+- Twitter
+- Instagram
+- Youtube
+
+##### Nav links
+- Home
+- Discography
+- Biography
+- Videos
+- Contact Us
 
 ### Navigation Menu
 The navigation menu is composed of pill style links directing users to the relevant section of the page selected.
@@ -90,9 +94,10 @@ The navigation menu is composed of pill style links directing users to the relev
 ### Home Page/home section
 index.html#home-bookmark  
 The main section of the homepage contains a hero image and a brief overview description of the band Thin Lizzy.  
-- Home image  
+#### Home image  
 ![Home section image](https://res.cloudinary.com/dfboxofas/image/upload/v1570014696/thin-lizzy/thin-lizzy-eyes-closed_1_mf8jvp.jpg)
-- Header logo  
+
+#### Header logo  
 ![Thin Lizzy header image](https://res.cloudinary.com/dfboxofas/image/upload/v1570021502/thin-lizzy/thin-lizzy-landscape-logo_u6fxfh.jpg)
 #### Home Section text
 - font-family: Rubik;
@@ -108,18 +113,18 @@ index.html#discography-bookmark
 The discography section contains a bootstrap card for each of the 12 albums the band has released. They are styled bootstrap cards consisting of an image, an album title, and a button which opens a model displaying the album song list.
 
 #### Discography items
-- Thin Lizzy
-- Shades of a Blue Orphanage
-- Vagabonds of the Western World
-- Nightlife
-- Fighting
-- Jailbreak
-- Johnny the Fox
-- Bad Reputation
-- Live & Dangerous
-- Black Rose: A Rock Legend
-- Chinatown
-- Thunder & Lightning
+1. Thin Lizzy
+2. Shades of a Blue Orphanage
+3. Vagabonds of the Western World
+4. Nightlife
+5. Fighting
+6. Jailbreak
+7. Johnny the Fox
+8. Bad Reputation
+9. Live & Dangerous
+10. Black Rose: A Rock Legend
+11. Chinatown
+12. Thunder & Lightning
 
 #### Discography card styling
 - color: #fafafa

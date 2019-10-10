@@ -356,14 +356,15 @@ Testing has been carried out using the following devices/browsers
 7. Verify Form submission accepted (for test purposes the page page refreshes)
 
 # Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This website is deployed on Github pages. Deployment to my GitHub pages is done via the AWS Cloud9 IDE using git in the terminal window.  
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+#### Deployment steps
+1. Using the terminal window add the files to the temporary git directory using the [git .] command.
+2. These files can then be committed to the git repository using the [git commit -m""] command.
+3. Deployment is then made to GitHub pages using the [git push] command.  
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+All versions are held on the master branch.
+
 
 # Credits
 ## Content

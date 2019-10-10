@@ -14,6 +14,10 @@ Bootstrap is used in this project for the following:
 - Horizontal Biography cards
 - Contact Us form
 
+### Cloudinary image manager
+All images used on this site and in this readme are stored and hosted on Cloudinary.  
+https://cloudinary.com
+
 ### FontAwesome v5.11.2
 https://fontawesome.com/icons?d=gallery  
 FontAwesome was used for the Social Media icons
@@ -254,7 +258,7 @@ Testing has been carried out using the following devices/browsers
 
 ### @ medium breakpoint using iPad emulator
 ##### iPad #Home
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570033071/Project-1-readme/screenshot-md-home_hu2qoc.jpg)
+![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541242/Project-1-readme/screenshot-md-home_tr0vec.jpg)
 ##### iPad #Discography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541268/Project-1-readme/screenshot-md-discography_e4whoe.png)
 ##### iPad #Discography-songlist
@@ -288,7 +292,7 @@ Testing has been carried out using the following devices/browsers
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542167/Project-1-readme/Screenshot_footer.android.chrome_aubiev.jpg)
 
 ## Functional tests
-### Test Nav bar navigation
+### Test: Nav bar navigation
 1. Click on 'Home' link in navbar
 2. Verify page navigates to Home section
 
@@ -304,7 +308,7 @@ Testing has been carried out using the following devices/browsers
 1. Click on 'Contact Us' link in navbar
 2. Verify page navigates to Contact Us section
 
-### Test Scroll spy indexing and offset
+### Test: Scroll spy indexing and offset
 1. Scroll to top of page
 2. Verify 'Home' link in navbar is highlighted with color background
 3. Scroll down the page until 'Albums' header is at center of screen
@@ -316,7 +320,7 @@ Testing has been carried out using the following devices/browsers
 9. Scroll down the page until 'Contact Us' header is at center of screen
 10. Verify 'Contact Us' link in navbar is hightlighted with color background
 
-### Test Social Media Links
+### Test: Social Media Links
 1. Click on 'Facebook' icon in navbar and footer
 2. Verify https://www.facebook.com/ThinLizzyOfficial/ opens in a new tab
 3. Click on 'Twitter' icon in navbar and footer
@@ -326,7 +330,7 @@ Testing has been carried out using the following devices/browsers
 7. Click on 'Youtube' icon in navbar and footer
 8. Verify https://www.youtube.com/results?search_query=thin+lizzy opens in a new tab
 
-### Test Videos functionality
+### Test: Videos functionality
 1. Navigate to Videos section
 2. Click the 'Play' icon in the video frame
 3. Verify video plays
@@ -334,7 +338,7 @@ Testing has been carried out using the following devices/browsers
 5. Click on imported video settings - Pause, Replay, and Full Screenshot
 6. Verify imported video settings functionality
 
-### Test Contact Us Form
+### Test: Contact Us Form
 ##### Test 1 - Test that fields are set as Required Fields
 1. Navigate to 'Contact Us' section
 2. Click the 'Submit' button
@@ -355,6 +359,10 @@ Testing has been carried out using the following devices/browsers
 6. Enter text with @ symbol to Email field
 7. Verify Form submission accepted (for test purposes the page page refreshes)
 
+#### Bugs found
+1. Colors not rendering correctly on Windows Edge browsers.  
+Fix: Edge does not support 8 digit hex values used for background transparency. All color values were changed to rgb() and rgba() where applicable.  
+
 # Deployment
 This website is deployed on Github pages. Deployment to my GitHub pages is done via the AWS Cloud9 IDE using git in the terminal window.  
 
@@ -364,7 +372,6 @@ This website is deployed on Github pages. Deployment to my GitHub pages is done 
 3. Deployment is then made to GitHub pages using the [git push] command.  
 
 All versions are held on the master branch.
-
 
 # Credits
 ## Content
@@ -396,4 +403,6 @@ The Biography images used on this site were obtained from:
 - Brian Downey https://images.app.goo.gl/xsTnUkudm1AvCT4bA
 
 ## Acknowledgements
-Acknowledgements to Rahul Patil for his mentoring advice on this project.
+Acknowledgements to the following in constructing this project
+- Rahul Patil for his mentoring advice. 
+- w3schools for html and css tutorials.

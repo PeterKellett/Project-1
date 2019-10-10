@@ -17,20 +17,23 @@ Bootstrap is used in this project for the following:
 ### FontAwesome v5.11.2
 https://fontawesome.com/icons?d=gallery  
 FontAwesome was used for the Social Media icons
-- Facebook
-   fab fa-facebook
-- Twitter
-    fab fa-twitter
-- Instagram
-    fab fa-instagram
-- Youtube
-    fab fa-youtube
+- Facebook  
+fab fa-facebook
+- Twitter  
+fab fa-twitter
+- Instagram  
+fab fa-instagram
+- Youtube  
+fab fa-youtube
 
 ### Google Fonts
 https://fonts.google.com  
 Google fonts is used for the following font purposes:
-- Section Headings Permanent+Marker
-- Paragraphs Rubik
+- Section Headings: Permanent+Marker
+- Paragraphs: Rubik
+
+### Favicon generator
+https://www.favicon.cc  
 
 ### AWS Cloud9
 This website has been constructed using AWS Cloud9 IDE.
@@ -53,22 +56,26 @@ A user requires the need to be able to easily navigate between the respective se
 This website shall contain 1 page consisting of 6 sections.
 ##### Home page
 Navigation menu - sticky top
-1. Intro (Home)section
+1. Intro (Home) section
 2. Discography section
 3. Biography section
 4. Videos section
 5. Contact Us section
 6. Footer
 
-## WIREFRAMES
-![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570030578/Project-1-readme/project-1-wireframe-1.1_wzxcoy.jpg)
+##### Favicon
+The favicon was generated using favicon.cc online image converter to convert the brand image used in the navbar to a .ico file.   
+https://res.cloudinary.com/dfboxofas/image/upload/v1570021330/thin-lizzy/favicon_1_w1qz9f.ico
+
+## WIREFRAME
+![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570031064/Project-1-readme/project-1-wireframe-1.1_ldptvt.jpg)
 
 
 ## FEATURES
 ### Navigation bar
 The nav bar is positioned sticky top so it is always visible. it consists of:  
 ##### Navbar brand image
-![home page wireframe](https://res.cloudinary.com/dfboxofas/image/upload/v1570020458/thin-lizzy/thin-lizzy-logo-red-black_s6s5hm.jpg)
+https://res.cloudinary.com/dfboxofas/image/upload/v1570020458/thin-lizzy/thin-lizzy-logo-red-black_s6s5hm.jpg
 
 ##### Social media icons
 Sourced from FontAwesome https://fontawesome.com/icons?d=gallery
@@ -86,26 +93,26 @@ Sourced from FontAwesome https://fontawesome.com/icons?d=gallery
 
 ### Navigation Menu
 The navigation menu is composed of pill style links directing users to the relevant section of the page selected.
-- background-color: black (#000)
-- link color: (#e61f02)
-- link color active: #fff
-- link background-color active: #a90e0e
+- background-color: rgb(0, 0, 0)
+- link color: rgb(230,31,2)
+- link color active: rgb(255,255,255)
+- link background-color active: rgb(169,14,14)
 
 ### Home Page/home section
 index.html#home-bookmark  
 The main section of the homepage contains a hero image and a brief overview description of the band Thin Lizzy.  
 #### Home image  
-![Home section image](https://res.cloudinary.com/dfboxofas/image/upload/v1570014696/thin-lizzy/thin-lizzy-eyes-closed_1_mf8jvp.jpg)
+https://res.cloudinary.com/dfboxofas/image/upload/v1570014696/thin-lizzy/thin-lizzy-eyes-closed_1_mf8jvp.jpg
 
 #### Header logo  
-![Thin Lizzy header image](https://res.cloudinary.com/dfboxofas/image/upload/v1570021502/thin-lizzy/thin-lizzy-landscape-logo_u6fxfh.jpg)
+https://res.cloudinary.com/dfboxofas/image/upload/v1570021502/thin-lizzy/thin-lizzy-landscape-logo_u6fxfh.jpg
+
 #### Home Section text
-- font-family: Rubik;
-- color: #fff;
-- text-align: left;
-- Paragraph image  
+- font-family: Rubik
+- color: rgb(255,255,255)
+- text-align: left
+- Paragraph image: James Hetfield   https://res.cloudinary.com/dfboxofas/image/upload/v1570021620/thin-lizzy/james-hetfield-phil-lynnot_xtgjug.jpg 
 - float: right  
-![James Hetfield Metallica](https://res.cloudinary.com/dfboxofas/image/upload/v1570021620/thin-lizzy/james-hetfield-phil-lynnot_xtgjug.jpg)
 
 
 ### Home Page/Discography section
@@ -113,56 +120,68 @@ index.html#discography-bookmark
 The discography section contains a bootstrap card for each of the 12 albums the band has released. They are styled bootstrap cards consisting of an image, an album title, and a button which opens a model displaying the album song list.
 
 #### Discography items
-1. Thin Lizzy
-2. Shades of a Blue Orphanage
-3. Vagabonds of the Western World
-4. Nightlife
-5. Fighting
-6. Jailbreak
-7. Johnny the Fox
-8. Bad Reputation
-9. Live & Dangerous
-10. Black Rose: A Rock Legend
-11. Chinatown
-12. Thunder & Lightning
+1. Thin Lizzy  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570021711/thin-lizzy/Thin_Lizzy_-_Thin_Lizzy_iynk9b.jpg
+2. Shades of a Blue Orphanage  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570022773/thin-lizzy/Thin_Lizzy_-_Shades_of_a_Blue_Orphanage_nsbepj.jpg
+3. Vagabonds of the Western World  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570022928/thin-lizzy/thin-lizzy-Vagabonds_of_the_Western_World_u0ufrx.jpg
+4. Nightlife  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023026/thin-lizzy/Thin_Lizzy_-_Night_Life_wqgxxf.jpg
+5. Fighting  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023391/thin-lizzy/thin-lizzy-Fighting_zg4atm.jpg
+6. Jailbreak  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023524/thin-lizzy/Thin_Lizzy_-_Jailbreak_fetcbp.jpg
+7. Johnny the Fox  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023588/thin-lizzy/Thin_Lizzy_-_Johnny_the_Fox_mubs2n.jpg
+8. Bad Reputation  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023627/thin-lizzy/Thin_Lizzy_-_Bad_Reputation_jja3qg.jpg
+9. Live & Dangerous  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023655/thin-lizzy/Thin_Lizzy_-_Live_and_Dangerous_crsspt.jpg
+10. Black Rose: A Rock Legend  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023676/thin-lizzy/Thin_Lizzy_-_Black_Rose_A_Rock_Legend_cerokj.jpg
+11. Chinatown  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023749/thin-lizzy/Thin_Lizzy_-_Chinatown_d5nzmf.jpg
+12. Thunder & Lightning  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023699/thin-lizzy/Thin_Lizzy_-_Thunder_and_Lightning_piimwv.jpg
 
 #### Discography card styling
-- color: #fafafa
-- background-color: #a90e0e
+- color: rgb(250, 250, 250)
+- background-color: rgb(169,14,14)
 - font: Rubik
 
 ### Home Page/Biography section
 index.html#biography-bookmark  
 The biography section displays 4 no. band members on horizontal bootstrap cards.  
 ##### Background image
-![background image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024274/thin-lizzy/Thin_Lizzy_1978-Live_and_Dangerous_lineup_qogkwv.jpg)
+https://res.cloudinary.com/dfboxofas/image/upload/v1570024274/thin-lizzy/Thin_Lizzy_1978-Live_and_Dangerous_lineup_qogkwv.jpg
 
 #### Biography cards
 - font: Rubik
-- color: #fafafa
-- background-color: #00000085
+- color: rgb(250, 250, 250)
+- background-color: rgba(0, 0, 0, 0.5)
 
 ##### Phil Lynott  
 - Phil Lynott profile image  
-![Phil Lynott profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570023901/thin-lizzy/phil-lynott-profile_ndhffn.jpg)
+https://res.cloudinary.com/dfboxofas/image/upload/v1570023901/thin-lizzy/phil-lynott-profile_ndhffn.jpg
 
 ##### Scott Gorham
 - Scott Gorham profile image  
-![Scott Gorham profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024018/thin-lizzy/scott-gorham-profile-2_cpyswj.jpg)  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570024018/thin-lizzy/scott-gorham-profile-2_cpyswj.jpg
 
 ##### Brian Robertson
 - Brian Robertson profile image  
-![Brian Robertson profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024094/thin-lizzy/Brian-robertson-profile_mwajcf.jpg)  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570024094/thin-lizzy/Brian-robertson-profile_mwajcf.jpg
 
 ##### Brian Downey
 - Brian Downey profile image  
-![Brian Downey profile image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024070/thin-lizzy/brian-downey-profile-3_invlg0.jpg)  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570024070/thin-lizzy/brian-downey-profile-3_invlg0.jpg
 
 
 ### Home Page/Videos section
 index.html#videos-bookmark  
 ##### Background image
-![background image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024582/thin-lizzy/video-background_dwvvig.jpg)  
+https://res.cloudinary.com/dfboxofas/image/upload/v1570024582/thin-lizzy/video-background_dwvvig.jpg  
 The Videos dimensions are:
 - width: 100%;
 - height: 350px;  
@@ -181,10 +200,10 @@ contact.html#contact-us-bookmark
 The contact us page consists of a form with 3 input fields and a submit button.
 
 ##### Background image
-![background image](https://res.cloudinary.com/dfboxofas/image/upload/v1570024553/thin-lizzy/thin-lizzy-live-bw_kt6nse.jpg)
+https://res.cloudinary.com/dfboxofas/image/upload/v1570024553/thin-lizzy/thin-lizzy-live-bw_kt6nse.jpg
 
 ##### Contact Us form
-- form background-color #00000085
+- form background-color rgba(0, 0, 0, 0.5)
 - Fields
     1. First name
     2. Surname
@@ -192,7 +211,10 @@ The contact us page consists of a form with 3 input fields and a submit button.
 - Input fields have attribute [required]
 
 ### Footer
-The footer consits of 3 section.
+- background-color: rgba(125, 44, 44, 0.6);
+- color: rgb(250, 250, 250);  
+
+The footer consits of sections.
 ##### Footer Sponsors
 1. Zimbian
 2. Gibson
@@ -218,56 +240,51 @@ Testing has been carried out using the following devices/browsers
 
 ## Testing screenshots
 ### Desktop
-- Chrome #Home
+##### Chrome #Home
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570031803/Project-1-readme/screenshot-xl-home_gmlxbf.jpg)
-- Chrome #Discography
+##### Chrome #Discography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570032208/Project-1-readme/screenshot-xl-discography_lv9tw0.jpg)
-- Chrome #Biography
+##### Chrome #Biography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570032394/Project-1-readme/screenshot-xl-biography_rw4oel.jpg)
-- Chrome #Videos
+##### Chrome #Videos
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570032503/Project-1-readme/screenshot-xl-videos_wz8hhi.jpg)
-- Chrome #Contact-us
+##### Chrome #Contact-us and Footer
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570032669/Project-1-readme/screenshot-xl-contact_us_jce4ia.jpg)
-- Chrome #Footer
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570032759/Project-1-readme/screenshot-xl-footer_hwbktp.jpg)
 
-### @ medium breakpoint
-- Chrome emulator #Home
+
+### @ medium breakpoint using iPad emulator
+##### iPad #Home
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570033071/Project-1-readme/screenshot-md-home_hu2qoc.jpg)
-- Chrome emulator #Discography
+##### iPad #Discography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541268/Project-1-readme/screenshot-md-discography_e4whoe.png)
-- Chrome emulator #Discography-songlist
+##### iPad #Discography-songlist
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541292/Project-1-readme/screenshot-md-song-list_eynx7b.png)
-- Chrome emulator #Biography
+##### iPad #Biography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541280/Project-1-readme/screenshot-md-biography_mezvw7.png)
-- Chrome emulator #Videos
+##### iPad #Videos
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541307/Project-1-readme/screenshot-md-videos_tvfqct.jpg)
-- Chrome emulator #Contact us & Footer
+##### iPad #Contact us & Footer
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541344/Project-1-readme/screenshot-md-contact-us-footer_sghjts.jpg)
 
-### Huawei P30 lite mobile devices
-- Android Chrome #Home
+### Huawei P30 lite mobile device
+##### Android Chrome #Home
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541692/Project-1-readme/Screenshot_home_1_.android.chrome_xskbl4.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541697/Project-1-readme/Screenshot_home_2_.android.chrome_lxowie.jpg)
-- Android Chrome #Discography
+
+##### Android Chrome #Discography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541709/Project-1-readme/Screenshot_discography_1_.android.chrome_egbbja.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541708/Project-1-readme/Screenshot_discography_2_.android.chrome_vssapw.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541709/Project-1-readme/Screenshot_discography_3_.android.chrome_vsdmxg.jpg)
-- Android Chrome #Discography-Song list
+
+##### Android Chrome #Discography-Song list
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541946/Project-1-readme/Screenshot_song-list.android.chrome_auasf3.jpg)
-- Android Chrome #Biography
+##### Android Chrome #Biography
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541730/Project-1-readme/Screenshot_biography_1_.android.chrome_sz81oe.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541731/Project-1-readme/Screenshot_biography_2_.android.chrome_wejs8r.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541730/Project-1-readme/Screenshot_biography_3_.android.chrome_vkyyzi.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570541730/Project-1-readme/Screenshot_biography_4_.android.chrome_jsrfqi.jpg)
-- Android Chrome #Videos
+
+##### Android Chrome #Videos
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542063/Project-1-readme/Screenshot_videos_1_.android.chrome_hbiae6.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542064/Project-1-readme/Screenshot_videos_2_.android.chrome_siemum.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542064/Project-1-readme/Screenshot_videos_3_.android.chrome_trqxlz.jpg)
-![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542064/Project-1-readme/Screenshot_videos_4_.android.chrome_toqpib.jpg)
-- Android Chrome #Contact Us
+
+##### Android Chrome #Contact Us
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542116/Project-1-readme/Screenshot_contact-us.android.chrome_jvcecs.jpg)
-- Android Chrome #Footer
+
+##### Android Chrome #Footer
 ![Screenshot](https://res.cloudinary.com/dfboxofas/image/upload/v1570542167/Project-1-readme/Screenshot_footer.android.chrome_aubiev.jpg)
 
 ## Functional tests
@@ -318,25 +335,25 @@ Testing has been carried out using the following devices/browsers
 6. Verify imported video settings functionality
 
 ### Test Contact Us Form
-1. Test that fields are set as Required Fields
-    1. Navigate to 'Contact Us' section
-    2. Click the 'Submit' button
-    3. Verify 'Field required' message is displayed for empty field [First Name]
-    4. Enter text to First Name field
-    5. Click 'Submit' button
-    6. Verify 'Field required' message is displayed for empty field [Surname]
-    7. Enter text to Surname field
-    8. Click 'Submit' button
-    9. Verify 'Field required' message is displayed for empty field [Email]
+##### Test 1 - Test that fields are set as Required Fields
+1. Navigate to 'Contact Us' section
+2. Click the 'Submit' button
+3. Verify 'Field required' message is displayed for empty field [First Name]
+4. Enter text to First Name field
+5. Click 'Submit' button
+6. Verify 'Field required' message is displayed for empty field [Surname]
+7. Enter text to Surname field
+8. Click 'Submit' button
+9. Verify 'Field required' message is displayed for empty field [Email]
 
-2. Test that Email field is set for email format
-    1. Navigate to 'Contact Us' section
-    2. Enter text to First Name field
-    3. Enter text to Surname field
-    4. Enter text without @ symbol to Email field
-    5. Verify error message is displayed
-    6. Enter text with @ symbol to Email field
-    7. Verify Form submission accepted (for test purposes the page page refreshes)
+##### Test 2 - Test that Email field is set for email format
+1. Navigate to 'Contact Us' section
+2. Enter text to First Name field
+3. Enter text to Surname field
+4. Enter text without @ symbol to Email field
+5. Verify error message is displayed
+6. Enter text with @ symbol to Email field
+7. Verify Form submission accepted (for test purposes the page page refreshes)
 
 # Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -377,4 +394,5 @@ The Biography images used on this site were obtained from:
 - Brian Robertson https://images.app.goo.gl/4kzw6SD9MKdCmDNq6
 - Brian Downey https://images.app.goo.gl/xsTnUkudm1AvCT4bA
 
-Acknowledgements
+## Acknowledgements
+Acknowledgements to Rahul Patil for his mentoring advice on this project.

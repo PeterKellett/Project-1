@@ -45,6 +45,7 @@ This website has been constructed using AWS Cloud9 IDE.
 ### GitHub repository 
 This website is hosted on GitHub  
 Project name: PeterKellett/Project-1  
+GitHub repository: https://github.com/PeterKellett/Project-1  
 Demo link: https://peterkellett.github.io/Project-1/
 
 # Website requirements

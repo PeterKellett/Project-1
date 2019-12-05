@@ -309,3 +309,7 @@ footer .social-links {
 footer .social-links a {
     color: rgb(159,3,3);
 }
+
+
+/*---------------Maps--------------------*/
+div#map {min-height: 360px;}
